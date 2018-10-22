@@ -1,0 +1,9 @@
+package ejercicio3Res;
+
+import ejercicio2Res.Persona;
+
+public class Alumno extends Persona {
+
+	Integer Legajo; 
+
+}

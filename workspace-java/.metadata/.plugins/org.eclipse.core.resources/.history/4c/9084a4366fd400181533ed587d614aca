@@ -1,0 +1,58 @@
+package ejercicios;
+
+import java.time.LocalDateTime;
+
+import Ejercicio2Res.Persona;
+import Ejercicio2Res.TipoDocumento;
+
+/**
+ * A. Crear una clase Persona con los siguientes campos
+ * (con sus respectivos getters, setters y constructor)
+ * 
+ * TipoDocumento - enum (dni/libretacivica) 
+ * NroDocumento - Integer
+ * Nombre - String
+ * Apellido - String
+ * FechaNacimiento - Date
+ * 
+ * B. En el método main de la clase "Ejercicio2" crear una nueva instancia
+ * de la clase persona y settearle valores reales con tus datos
+ * 
+ * 
+ * C. En el método main de la clase "Ejercicio 2" imprimir los valores en 
+ * consola 
+ * (crear método main e imprimir valores) 
+ *  
+ * @author examen
+ *
+ */
+public class Ejercicio2 {
+
+	/**
+	 * 
+	 */
+	public Ejercicio2() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		Persona persona = new Persona();
+		persona.setNombre("Juan");
+		persona.setApellido("P�rez");
+		persona.setFechaNacimiento(new LocalDateTime("",""));
+		persona.setNroDocumento(30000000);
+		persona.setTipodocumento(TipoDocumento.dni);
+		
+		imprimirValoresPersona(persona);
+
+	}
+	
+	public static void imprimirValoresPersona(Persona persona) {
+		System.out.println(persona.toString());
+	}
+
+}

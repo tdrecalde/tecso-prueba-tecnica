@@ -1,0 +1,11 @@
+package ejercicio3Res;
+
+import ejercicio2Res.Persona;
+
+public class Alumno extends Persona {
+
+	public Alumno() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

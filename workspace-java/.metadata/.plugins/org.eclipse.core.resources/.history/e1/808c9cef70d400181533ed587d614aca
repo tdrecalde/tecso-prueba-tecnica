@@ -1,0 +1,24 @@
+package ejercicio3Res;
+
+import ejercicio2Res.Persona;
+
+public class Alumno extends Persona {
+
+	Integer Legajo;
+
+	public Integer getLegajo() {
+		return Legajo;
+	}
+
+	public void setLegajo(Integer legajo) {
+		Legajo = legajo;
+	}
+
+	@Override
+	public String toString() {
+		return "Alumno [Legajo=" + Legajo + super.toString() + "]";
+	}
+	
+	
+
+}

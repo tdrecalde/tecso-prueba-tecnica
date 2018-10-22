@@ -1,0 +1,38 @@
+package ejercicios;
+
+import java.util.Date;
+
+public class Persona {
+	
+	Integer NroDocumento; 
+	 String Nombre;
+	 String Apellido; 
+	 Date FechaNacimiento;
+	 
+	public Integer getNroDocumento() {
+		return NroDocumento;
+	}
+	public void setNroDocumento(Integer nroDocumento) {
+		NroDocumento = nroDocumento;
+	}
+	public String getNombre() {
+		return Nombre;
+	}
+	public void setNombre(String nombre) {
+		Nombre = nombre;
+	}
+	public String getApellido() {
+		return Apellido;
+	}
+	public void setApellido(String apellido) {
+		Apellido = apellido;
+	}
+	public Date getFechaNacimiento() {
+		return FechaNacimiento;
+	}
+	public void setFechaNacimiento(Date fechaNacimiento) {
+		FechaNacimiento = fechaNacimiento;
+	} 
+
+
+}

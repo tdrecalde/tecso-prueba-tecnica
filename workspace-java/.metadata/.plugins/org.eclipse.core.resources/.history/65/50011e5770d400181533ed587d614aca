@@ -1,0 +1,106 @@
+package ejercicio3Res;
+
+import java.time.LocalDate;
+
+import ejercicio2Res.Persona;
+import ejercicio2Res.TipoDocumento;
+
+public class Alumno extends Persona {
+
+	Integer Legajo;
+
+	public Integer getLegajo() {
+		return Legajo;
+	}
+
+	public void setLegajo(Integer legajo) {
+		Legajo = legajo;
+	}
+
+	@Override
+	public Integer getNroDocumento() {
+		// TODO Auto-generated method stub
+		return super.getNroDocumento();
+	}
+
+	@Override
+	public void setNroDocumento(Integer nroDocumento) {
+		// TODO Auto-generated method stub
+		super.setNroDocumento(nroDocumento);
+	}
+
+	@Override
+	public String getNombre() {
+		// TODO Auto-generated method stub
+		return super.getNombre();
+	}
+
+	@Override
+	public void setNombre(String nombre) {
+		// TODO Auto-generated method stub
+		super.setNombre(nombre);
+	}
+
+	@Override
+	public String getApellido() {
+		// TODO Auto-generated method stub
+		return super.getApellido();
+	}
+
+	@Override
+	public void setApellido(String apellido) {
+		// TODO Auto-generated method stub
+		super.setApellido(apellido);
+	}
+
+	@Override
+	public LocalDate getFechaNacimiento() {
+		// TODO Auto-generated method stub
+		return super.getFechaNacimiento();
+	}
+
+	@Override
+	public void setFechaNacimiento(LocalDate fechaNacimiento) {
+		// TODO Auto-generated method stub
+		super.setFechaNacimiento(fechaNacimiento);
+	}
+
+	@Override
+	public TipoDocumento getTipodocumento() {
+		// TODO Auto-generated method stub
+		return super.getTipodocumento();
+	}
+
+	@Override
+	public void setTipodocumento(TipoDocumento tipodocumento) {
+		// TODO Auto-generated method stub
+		super.setTipodocumento(tipodocumento);
+	}
+
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		return super.clone();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		return super.equals(obj);
+	}
+
+	@Override
+	protected void finalize() throws Throwable {
+		// TODO Auto-generated method stub
+		super.finalize();
+	}
+
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return super.hashCode();
+	}
+	
+	
+
+}

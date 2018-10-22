@@ -1,0 +1,13 @@
+package ejercicios;
+
+import java.util.Date;
+
+public class Persona {
+	
+	Integer NroDocumento; 
+	 String Nombre;
+	 String Apellido; 
+	 Date FechaNacimiento; 
+
+
+}
